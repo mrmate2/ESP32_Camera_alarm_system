@@ -1,4 +1,4 @@
-# ESP32_Camera_alarm_system
+# ESP32_Camera_alarm_system (Arduino ecosystem)
 ESP32 Camera server, remotely controllable via HTTP and via UDP, with movement detection, failover mode, 
 ability to send captured pictures via Telegram bots.
 
@@ -27,3 +27,5 @@ So there we go: ESP32 based camera system with the following features:
   is documented and designed to traverse NAT barriers. 
 - the alarm mode with movement detection can be configured to kick in automatically in case contact with the management
   is lost but connectivity to the Internet is still available. 
+
+Make sure to compile this for the ESP32-Cam boards, it requires PSRAM support.
